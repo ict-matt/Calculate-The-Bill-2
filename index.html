@@ -9,7 +9,7 @@
 
     <!-- Loading Flat UI -->
     <link href="css/flat-ui.css" rel="stylesheet">
-    <link href="css/demo.css" rel="stylesheet">
+    <!--<link href="css/demo.css" rel="stylesheet">-->
 
     <link rel="shortcut icon" href="images/favicon.ico">
 
@@ -21,67 +21,57 @@
   </head>
   <body>
     <div class="container">
-      <div class="demo-headline">
-        <h3 class="demo-logo">
-          Calculate The Bill
-          <small>Split the bill with ease</small>
-        </h3>
+		      <div class="demo-headline">
+<h5>          Calculate The Bill<br>
+          <small>Split the bill with ease</small></h5>
       </div> <!-- /demo-headline -->
-
-
-
+<p>
+<P>
+</p>
 
       <div class="row">
         <div class="col-xs-3">
         	<div class="form-group">
-	        	<input type="text" value="" placeholder="Bill Total" class="form-control" />
+	        	Bill Total<input type="text" value="" name = "bill_total" placeholder="Bill Total" class="form-control" />
         	</div>          
         </div>
-      <div class="row">
         <div class="col-xs-3">
-        	<div class="form-group">
-	        	<input type="text" value="" placeholder="Number of Customers" class="form-control" />
-        	</div>          
+          No Of Customer<select name="herolist" value="Customers" class="select-block">
+            <option value="0">1</option>
+            <option value="1" selected="selected">2</option>
+            <option value="2">3</option>
+            <option value="3">4</option>
+            <option value="2">5</option>
+            <option value="3">6</option>
+            <option value="2">7</option>
+            <option value="3">8</option>
+            <option value="2">9</option>
+            <option value="3">10</option>
+            <option value="2">11</option>
+            <option value="3">12</option>
+            <option value="2">13</option>
+            <option value="3">14</option>
+            <option value="2">15</option>
+            <option value="3">16</option>
+            <option value="2">17</option>
+            <option value="3">18</option>
+            <option value="2">19</option>
+            <option value="3">20</option>
+          </select>
         </div>
+      </div> <!-- /row -->
         
+      <div class="row">
+        <div class="col-xs-3">
+          Service Charge<select name="herolist" value="Service Charge" class="select-block">
+            <option value="0">5%</option>
+            <option value="1" selected="selected">10%</option>
+            <option value="2">15%</option>
+            <option value="3">20%</option>
+          </select>
+        </div>
       </div> <!-- /row -->
 
-      <div class="row">
-        <div class="col-xs-5">
-          <br/>
-          <br/>
-          <div id="slider" class="ui-slider">
-            <div class="ui-slider-segment"></div>
-            <div class="ui-slider-segment"></div>
-            <div class="ui-slider-segment"></div>
-          </div>
-        </div> <!-- /sliders -->
-</div>
-<div class="row">
-          <div class="pagination">
-            <ul>
-              <li class="previous"><a href="#fakelink" class="fui-arrow-left"></a></li>
-              <li class="active"><a href="#fakelink">01</a></li>
-              <li><a href="#fakelink">02</a></li>
-              <li><a href="#fakelink">03</a></li>
-              <li><a href="#fakelink">04</a></li>
-              <li><a href="#fakelink">05</a></li>
-              <li><a href="#fakelink">06</a></li>
-              <li><a href="#fakelink">07</a></li>
-              <li><a href="#fakelink">08</a></li>
-							<br>
-              <li><a href="#fakelink">09</a></li>
-              <li><a href="#fakelink">10</a></li>
-              <li><a href="#fakelink">11</a></li>
-              <li><a href="#fakelink">12</a></li>
-              <li><a href="#fakelink">13</a></li>
-              <li><a href="#fakelink">14</a></li>
-              <li><a href="#fakelink">15</a></li>
-              <li class="next"><a href="#fakelink" class="fui-arrow-right"></a></li>
-            </ul>
-          </div> <!-- /pagination -->
-        </div> <!-- /navigation -->
-      </div> <!-- /row -->
 
 
       <div class="row demo-row">
