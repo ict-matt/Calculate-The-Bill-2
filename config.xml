@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<gap:splash src="splash.png" gap:platform="ios" width="320" height="480" />
+<gap:splash src="splash.png" />
+
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.phonegap.example"
@@ -7,8 +10,6 @@
 
     <!-- versionCode is optional and Android only -->
 
-<gap:splash src="splash.png" gap:platform="ios" width="320" height="480" />
-<gap:splash src="splash.png" />
 
     <name>PhoneGap Example</name>
 
