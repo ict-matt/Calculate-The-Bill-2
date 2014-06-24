@@ -1,1 +1,2 @@
 <gap:splash src="splash.png" gap:platform="ios" width="320" height="480" />
+<gap:splash src="splash.png" />
